@@ -8,6 +8,10 @@ on:
     branches:
       - main
   workflow_dispatch:
+  {
+    "route": "/profile/index.html",
+    "allowedRoles": ["authenticated"]
+  }
 
 jobs:
   build:
