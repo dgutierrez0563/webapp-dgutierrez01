@@ -17,7 +17,7 @@ steps:
 - task: PublishBuildArtifacts@1
 
 parameters:
-- name: deployDEV
+- name: tesnting-re
   displayName: Deploy to DEV
   type: boolean
   default: false
