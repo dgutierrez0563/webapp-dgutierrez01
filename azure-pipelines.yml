@@ -16,6 +16,7 @@ steps:
     includeRootFolder: false
 - task: PublishBuildArtifacts@1
 
+
 parameters:
 - name: tesnting-re
   displayName: Deploy to DEV
